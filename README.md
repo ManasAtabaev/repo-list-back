@@ -17,3 +17,7 @@ npm run serve
 ```
 npm run prebuild
 ```
+
+### Backend Test
+
+I will create test/api tests. I will test endpoints via submit request first to create favorite repo and then request it via `GET /favorite`, repository id from previouse test should be included in return result.
