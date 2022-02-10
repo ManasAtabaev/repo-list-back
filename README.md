@@ -2,8 +2,17 @@
 
 ## Project setup
 
+- Create DB (postgres)
+- Update `database.json`, add DB credentials
+
 ```
 npm install
+```
+
+To create table in DB run migration:
+
+```
+node node_modules/db-migrate/bin/db-migrate up
 ```
 
 ### Compiles and hot-reloads for development
