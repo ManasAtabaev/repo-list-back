@@ -1,0 +1,11 @@
+{
+  "defaultEnv": "pg",
+  "pg": {
+    "driver": "pg",
+    "user": "postgres_user",
+    "password": "xx",
+    "host": "localhost",
+    "database": "repo_list",
+    "port": 5432
+  }
+}
