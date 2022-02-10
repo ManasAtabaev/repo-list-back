@@ -40,7 +40,6 @@ function GET(url: string, handler: (req: any) => any) {
       for (let i of data) {
         result.push(i.repo_id);
       }
-      console.log(result);
       res.json({
         success: true,
         result,
